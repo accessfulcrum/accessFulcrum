@@ -1,4 +1,8 @@
 import React from "react";
+/**
+ * Footer component that displays copyright information and terms.
+ * @returns {JSX.Element} Footer section with copyright and terms
+ */
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
@@ -16,5 +20,4 @@ function Footer() {
     </>
   );
 }
-
 export default Footer;
