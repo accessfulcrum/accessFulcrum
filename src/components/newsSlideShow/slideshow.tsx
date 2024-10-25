@@ -4,8 +4,7 @@ import React, { useState, useEffect } from "react";
 export default function Slideshow() {
   const images = [
     "Welcome to the Access Fulcrum Limited Website...",
-    "Replace this with AFL - We exceed your expectations...........",
-    "AFL - Passionate about Exceptional Customer Service Excellence...",
+    "AFL - We exceed your expectations...........",
   ];
   const [imIndex, setImIndex] = useState(0);
 
